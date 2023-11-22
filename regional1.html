@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari</title>
+    <style>
+        body{
+            margin: 30px 50px 30px 50px;
+            background-color: antiquewhite;
+            align-content: center;
+            border: 2px solid rgb(20, 69, 72);
+            padding: 20px;
+            
+        }
+        #title{
+            font-size: 40px;
+            font-family:'Times New Roman', Times, serif;
+            margin-bottom: 30px;
+            color: rgb(20, 69, 72);
+        }
+        ul{
+            width: 30rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        ul li{
+            font-family: 'Times New Roman', Times, serif;
+            list-style: none;
+            position: relative;
+        }
+        ul li::after{
+            content: "";
+            width: 30px;
+            background-color: rgb(61, 92, 93);
+            position: absolute;
+            left: 0;
+            bottom: -0.3rem;
+            width: 0;
+            height: 3px;
+            transition: 1s;
+            
+            
+        }
+        ul li:hover::after{
+            width: 100%;
+            bottom: -0.3rem;
+        }
+        #content{
+            display: flex;
+            margin-top: 80px;
+            justify-content: space-around;
+            color: rgb(90, 15, 15);
+
+        }
+        #free{
+            color: black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #text{
+            margin-top: 60px;
+            text-align: center;
+            width: 50%;
+            background-color:rgb(228, 183, 155);
+            
+        }
+        #p{
+            margin-top: 25px;
+            color:rgb(10, 33, 33);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h3{
+            font-family:'Times New Roman', Times, serif;
+
+        }
+        img{
+            float: left;
+            margin-right: 10px;
+            
+        }
+        button{
+            background-color:rgb(228, 183, 155);
+           color: rgb(24, 24, 3);
+           transition: 1s;
+           
+        }
+        button:hover{
+            background-color: rgb(93, 133, 135);
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <h1 id="title">Best Tools & Utilities Software</h1>
+    <ul id="ul">
+        <li>WINDOWS</li>
+        <li>MAC</li>
+        <li>ANDROID</li>
+        <li>IOS</li>
+    </ul>
+    <div id="bod">
+        <div id="content">
+
+            <div id="a">
+            <img src="https://www.techspot.com/images2/downloads/topdownload/2014/05/SUPERAntiSpyware.png" width="40px" height="40px"/><h3>VPN GATE CLIENT</h3>
+            <p id="free">Free</p>
+            <p id="p">Lorem ipsum dolor sit amet Lorem, ipsum. conse</p>
+            </div>
+
+            <div id="b">
+            <img src="https://banner2.cleanpng.com/20180518/olq/kisspng-computer-icons-openvpn-download-clip-art-humanoid-icon-5afe74c4384a29.7944958415266254762306.jpg" width="40px" height="40px"/><h3>SUPERANTISPYWARE</h3>
+            <p id="free">Free</p>
+            <p id="p">Lorem ipsum dolor sit amet Lorem ipsum dolor sit. conse</p>
+            </div>
+
+            <div id="c">
+            <img src="https://e7.pngegg.com/pngimages/419/614/png-clipart-avira-product-design-brand-logo-computer-security-antivirus-text-trademark-thumbnail.png" alt="loading..." width="40px" height="40px"/><h3>AVIRA FREE SECURITY</h3>
+            <p id="free">Free</p>
+            <p id="p">Lorem ipsum dolor sit amet Lorem, ipsum dolor. conse</p>
+            </div>
+
+        </div>
+        <div id="bottom">
+            <input type="text" placeholder="see all" id="text">
+            <button>Voter</button>
+        </div>
+    </div>
+</body>
+</html>
