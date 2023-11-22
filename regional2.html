@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        body{
+            margin: 30px 50px auto;
+            background-color: rgb(245, 228, 200);
+            
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            
+        }
+        ul li{
+            list-style: none;
+            text-align: center;
+            padding: 3px;
+        }
+        #abc{
+            display: flex;
+            margin: 50px;
+           margin-right: 20px;
+           margin-top: 120px;
+           flex-wrap: wrap;
+           align-items: center;
+           justify-content: center;
+
+        }
+        img{
+            border: 2px solid #4A3A33;
+            border-radius: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            object-fit: cover;
+            height: 200px;
+            
+
+        }
+        h3{
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-align: center;
+            color: #414b2b;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 0px 20px 0px 20px;
+            padding-bottom: 40px;
+            overflow-wrap: break-word;
+        }
+        button{
+            background-color: rgb(245, 228, 200);
+            border-radius: 10px;
+            border: 2px solid rgb(17, 28, 1);
+            padding: 7px;
+            color: rgb(17, 28, 1);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            box-shadow: 4px 4px 4px rgba(74, 52, 50, 0.6);
+            transition: 1s;
+            letter-spacing: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            height: 40px;
+            
+        }
+        button:hover{
+            width: 100%;
+            background-color:  #3d5d09;
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background-color: rgb(245, 228, 200);
+            border-top: 2px solid #4A3A33;
+            border-bottom: 2px solid #4A3A33;
+            
+        }
+        #box{
+            border: 2px solid #4A3A33;
+
+            background-color: rgb(193, 167, 126);
+        }
+        #a {
+            border: 1px transparent;
+            width: 300px;
+            height: 350px;
+            margin: 20px;
+            
+        }
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><button type="button" onclick="location.href='file:///C:/Users/hp/OneDrive/Desktop/HTML/regio3Breakfast.html'">Breakfast</button></li>
+            <li><button type="button" onclick="location.href='file:///C:/Users/hp/OneDrive/Desktop/HTML/regio2Lunch.html'">Lunch</button></li>
+            <li><button type="button" onclick="location.href='file:///C:/Users/hp/OneDrive/Desktop/HTML/regio2Snack.html'">Snack</button></li>
+            <li><button type="button" onclick="location.href='file:///C:/Users/hp/OneDrive/Desktop/HTML/regio2Dinner.html'">Dinner</button></li>
+            <li><button type="button" onclick="location.href='file:///C:/Users/hp/OneDrive/Desktop/HTML/regional2.html'">All</button></li>
+        </ul>
+    </header>
+    <div id="box">
+        <div id="abc">
+            <div id="a">
+                <img src="https://jesuisuncuisinier.fr/wp-content/uploads/2020/10/couscous-au-poulet-et-legumes.jpg" width="150px" height="150px"/>
+                <div id="text">
+                    <h3>Couscous--80dh</h3>
+                    <p>A delecious homade Couscous, with seven different vegetables. Cooked perfectly to serve your likings.</p>
+                </div>
+            </div>
+            <div id="a">
+                <img src="https://www.cuisinonsencouleurs.fr/wp-content/uploads/2021/07/tajine-poulet-frites-15-scaled.jpg"  width="150px" height="150px"/>
+                <h3>Tajine--120dh</h3>
+                <p>A perfect Lamb Tajine, just the one you are looking for.Served with a 
+                    basket full of tasty Moroccan Bread and a drink of your choice.</p>
+            </div>
+            <div id="a">
+                <img src="https://fac.img.pmdstatic.net/fit/https.3A.2F.2Fi.2Epmdstatic.2Enet.2Ffac.2F2022.2F03.2F04.2F8285e8af-0608-42f7-bff9-6c45bc9d9baa.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgSVNUT0NLL0dFVFRZIElNQUdFUyAvIEZlbW1lIEFjdHVlbGxl/focus-point/1167%2C669/pastilla-fruits-de-mer.jpeg" width="150px" height="150px"/>
+                <h3>Bastila Fish--1000dh</h3>
+                <p>The best Fish Bastila you will ever taste, it has different flavors and 
+                    different types of Fish and too much more.</p>
+            </div>
+            <div id="a">
+                <img src="https://toutelacuisinequejaime.files.wordpress.com/2017/12/bf4d4-18580090_795181647322385_7556270654027202560_n.jpg" width="150px" height="150px"/>
+                <h3>Bastila Chicken--500dh</h3>
+                <p>The best Chicken Bastila you will ever taste, it is sweet and salty just the mix of love you need.</p>
+            </div>
+            <div id="a">
+                <img src="https://www.thedeliciouscrescent.com/wp-content/uploads/2017/11/Moroccon-Eggs-Square.jpg" width="150px" height="150px"/>
+                <h3>Tomato Egg--50dh</h3>
+                <p>We call it BM. Eggs cooked in a delecious TomatoSauce.</p>
+            </div>
+            <div id="a">
+                <img src="https://i0.wp.com/www.petitapron.com/wp-content/uploads/2021/05/DSC_0021-scaled.jpg?resize=960%2C640&ssl=1" width="150px" height="150px"/>
+                <h3>Baghrir--20dh</h3>
+                <p>Moroccan Pancakes, served with butter and honey.</p>
+            </div>
+            <div id="a">
+                <img src="https://i0.wp.com/africa-cuisine.com/wp-content/uploads/2023/03/Msemen.jpeg?fit=1170%2C984&ssl=1" width="150px" height="150px"/>
+                <h3>Msemen--30dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://previews.123rf.com/images/picturepartners/picturepartners1504/picturepartners150400061/39282857-dish-with-fresh-baked-moroccan-cookies-served-with-tea.jpg" width="150px" height="150px"/>
+                <h3>Almond Moroccan Cookies--500dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/D2E2521B-2690-44B5-8BD5-0BAD5C76EB37/Derivates/290E3C0B-2A82-4243-8C73-BAA412C4CF80.jpg" width="150px" height="150px"/>
+                <h3>Mint Atay--20dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://www.thespruceeats.com/thmb/VYPte2nVkETFFHeLTicXLmXeWx4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-moroccan-harira-soup-2394920-hero-01-ffd8665c225c48c4a45c4314e96821b2.jpg" width="150px" height="150px"/>
+                <h3>Harira--10dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://tastymorocco.com/wp-content/uploads/2023/01/rfissa-marocaine-recette-facile.webp" width="150px" height="150px"/>
+                <h3>Refissa--200dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://cdn.youcan.shop/stores/5fbb65836a9ad45b31daff6a49a1a2b4/products/HhD4SBtniRt6pSOR2W7iLwB1RgIoDdT2rham1shM.jpeg" width="150px" height="150px"/>
+                <h3>Salade Marocaine Royale--390dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://img-4.linternaute.com/PC9RissTfESGKBuDgzRW_Bou_t4=/1500x/smart/1e662d67364c47cd817f649a353483a3/ccmcms-linternaute/10844429.jpg" width="150px" height="150px"/>
+                <h3>Fruits de Saison--100dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+            <div id="a">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/1a/39/c0/a-must-in-morocco-the.jpg" width="150px" height="150px"/>
+                <h3>Moroccan Breakfast--50dh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
